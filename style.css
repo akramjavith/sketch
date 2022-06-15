@@ -85,21 +85,13 @@
     background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
 }
 
-  .erasorButton {
-    background-color: rgb(255, 255, 255);
+  .eraseButton {
+    background-color: yellowgreen;
     color: rgb(0, 0, 0);
   }
   .eraseButton:hover {
-    background-color: white;
+    background-color: greenyellow;
     color: rgb(255, 255, 255);
     background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
   }
-  .resetBoardButton {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-  }
-  .resetBoardButton:hover {
-    background-color: white;
-    color: rgb(255, 255, 255);
-    background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
-  }
+  
