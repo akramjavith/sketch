@@ -51,17 +51,33 @@
     text-align: center;
     transition: all 0.2s;
   }
-button:hover{
+  button:hover {
     cursor: pointer;
 }
 .mode{
     color: red;
 }
-.blackbutton {
-    background-color: white;
+.blackButton {
+    background-color:lightblue;
     color:black;
 }
-.blackbutton:hover {
+.blackButton:hover {
+    background-color: rgba(red, green, blue, alpha);
+    color: black;
+}
+.blueButton {
+    background-color:blue;
+    color:white;
+}
+.blueButton:hover {
+    background-color: rgba(red, green, blue, alpha);
+    color: black;
+}
+.randomButton {
+    background-color:red;
+    color:white;
+}
+.randomButton:hover {
     background-color: rgba(red, green, blue, alpha);
     color: black;
 }
