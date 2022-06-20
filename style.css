@@ -3,9 +3,7 @@
     width: 500px;
     display: grid;
     background-color: white;
-    
-    
-}
+    }
 
 .board:hover{
     cursor: pointer;
@@ -94,5 +92,6 @@
     background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
   }
 .reset{
-  display: flex;
+ 
+  background-color: orangered;
 }
