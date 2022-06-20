@@ -1,7 +1,7 @@
 let color = "black";
 let click = true;
 
-function populateBoard(size) {
+function Board(size) {
   let board = document.querySelector(".board");
   let squares = board.querySelectorAll("div");
   squares.forEach((div) => div.remove());
@@ -17,12 +17,12 @@ function populateBoard(size) {
   }
 }
 
-populateBoard(16);
+Board(16);
 
 function changeSize(input) {
   if (input >= 2 && input <= 100) {
     document.querySelector(".error").style.display = "none";
-    populateBoard(input);
+    Board(input);
   } else {
     document.querySelector(".error").style.display = "flex";
   }
