@@ -73,7 +73,7 @@
     background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
 }
 .randomButton {
-    background-color:red;
+    background-color:goldenrod;
     color:white;
 }
 .randomButton:hover {
@@ -91,7 +91,24 @@
     color: rgb(255, 255, 255);
     background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
   }
+
+  .redButton {
+    background-color:red;
+    color:white;
+}
+.redButton:hover {
+    background-color: rgba(red, green, blue, alpha);
+    color: black;
+    background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
+}
 .reset{
  
   background-color: orangered;
+ 
+}
+.reset:hover{
+  background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
+}
+.size:hover{
+  background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
 }
