@@ -7,6 +7,11 @@
     
     <link rel="stylesheet" href="style.css"/>
     <title>SketchPad</title>
+    <style>
+      body{
+        background-image: url('https://wallpaperaccess.com/full/181630.jpg');
+      }
+    </style>
   </head>
   <body>
     <div class="flex-container">
@@ -21,10 +26,10 @@
           <button class="randomButton" onclick="changeColor('random')"> Rainbow </button>
           <button class="eraseButton" onclick="changeColor('white')"> Erase  </button><br><br>
 
-         <div style="text-align:center">
+        <div style="text-align:center">
           <button class="reset" onclick="resetBoard()">Reset</button><br><br>
         </div>
-        <div>
+       <div>
           <input type="text" placeholder="Size of Board" value="16" onchange="changeSize(this.value)" />
          
            
@@ -35,8 +40,8 @@
       </div>
     </div>
     <footer>
-      <p style="color:blue">link:
-<a href="https://github.com/akramjavith/sketch" target="blank">sketch project view on git</a>
+      <p style="color:blue"><b>Link:</b>
+<a href="https://github.com/akramjavith/sketch" target="blank"><strong style="color:red;">project view on git</strong> </a>
 </p>
     </footer>
   </body>
