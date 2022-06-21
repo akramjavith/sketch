@@ -115,8 +115,12 @@
 }
 
 input {
-  width: 50px;
+  width: 25px;
+  
 }
 .error {
   display: none;
+}
+size {
+  text-align: center;
 }
