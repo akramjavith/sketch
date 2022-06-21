@@ -21,10 +21,10 @@ Board(16);
 
 function changeSize(input) {
   if (input >= 2 && input <= 100) {
-    document.querySelector(".error");
-   
+    document.querySelector(".error").style.display = "none";
+    Board(input);
   } else {
-    document.querySelector(".error");
+    document.querySelector(".error").style.display = "flex";
   }
 }
 

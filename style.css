@@ -52,7 +52,8 @@
     cursor: pointer;
 }
 .mode{
-    color: green;
+    color: blue;
+    margin-bottom: 5px;
 }
 .blackButton {
     background-color:lightblue;
@@ -111,4 +112,11 @@
 }
 .size:hover{
   background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
+}
+
+input {
+  width: 50px;
+}
+.error {
+  display: none;
 }
